@@ -142,28 +142,155 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '1. Competencias fundantes',
+      referencia:
+        'Ministerio de Educación Nacional. (2004). Estándares básicos de competencias ciudadanas: Formar para la ciudadanía… ¡Sí es posible! Lo que necesitamos saber y saber hacer.',
+      tipo: 'Cartilla',
+      link:
+        'https://www.mineducacion.gov.co/1621/articles-75768_archivo_pdf.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Competencias fundantes',
+      referencia:
+        'Isquerra Alzina, R., & Pérez Escoda, N. (2007). Las competencias emocionales. Educación XX1, 10, 61-82.',
+      tipo: 'Revista web',
+      link: 'https://www.redalyc.org/pdf/706/70601005.pdf',
+    },
+    {
+      tema: '2. Competencia integradoras',
+      referencia:
+        'Max-Neef, M. (1986). Desarrollo a Escala Humana: una opción para el futuro. ',
+      tipo: 'Libro',
+      link:
+        'https://www.daghammarskjold.se/wp-content/uploads/1986/08/86_especial.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Autoestima',
+      significado:
+        'la capacidad de valorarse a uno mismo y sentirse capaz de enfrentar los desafíos de la vida.',
+    },
+    {
+      termino: 'Axiológicas (necesidades)',
+      significado:
+        'relacionadas con valores humanos como afecto, participación, identidad, creación y libertad.',
+    },
+    {
+      termino: 'Competencias fundantes',
+      significado:
+        'habilidades socioemocionales que forman la base del desarrollo personal y profesional, como autoestima, regulación emocional entre otras. ',
+    },
+    {
+      termino: 'Competencias integradoras',
+      significado:
+        'conjunto de habilidades que combinan conocimientos, valores y técnicas para enfrentar situaciones complejas en contextos específicos.',
+    },
+    {
+      termino: 'Comunicación',
+      significado:
+        'proceso de compartir ideas, pensamientos y emociones con otros esencial para establecer y mantener relaciones sociales efectivas',
+    },
+    {
+      termino: 'Desarrollo a Escala Humana (DEH)',
+      significado:
+        'enfoque que prioriza el bienestar humano mediante la satisfacción de necesidades fundamentales.',
+    },
+    {
+      termino: 'Empatía',
+      significado:
+        'capacidad de comprender y compartir los sentimientos y perspectivas de otras personas, promoviendo conexiones afectivas.',
+    },
+    {
+      termino: 'Existenciales (necesidades)',
+      significado:
+        'asociadas con el ser humano en términos de ser, tener, hacer y estar, representando dimensiones esenciales.',
+    },
+    {
+      termino: 'Habilidades socioemocionales',
+      significado:
+        'conjunto de conocimientos, destrezas y actitudes que permiten interactuar con otros, gestionar emociones y adaptarse a diversos contextos.',
+    },
+    {
+      termino: 'Liderazgo',
+      significado:
+        'habilidad para influir, motivar y guiar a un grupo hacia el logro de objetivos compartidos.',
+    },
+    {
+      termino: 'Manejo de conflicto',
+      significado:
+        'capacidad de identificar, analizar y resolver desacuerdos de manera constructiva, promoviendo soluciones beneficiosas.',
+    },
+    {
+      termino: 'Regulación emocional',
+      significado:
+        'habilidad para manejar las emociones de manera efectiva, decidiendo cuándo y cómo experimentarlas y expresarlas',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'la capacidad de adaptarse y superar situaciones adversas, recuperándose y encontrando formas de salir fortalecido',
+    },
+    {
+      termino: 'Satisfactores sinérgicos',
+      significado:
+        'elementos que satisfacen una necesidad humana específica, y contribuyen al cumplimiento simultáneo de otras necesidades fundamentales.',
+    },
+    {
+      termino: 'Toma de decisiones',
+      significado:
+        'proceso de analizar opciones y elegir la acción más adecuada para resolver problemas.',
+    },
+    {
+      termino: 'Trabajo en equipo',
+      significado:
+        'capacidad para colaborar con otras personas, aprovechando las habilidades y fortalezas individuales.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Berlo, D. K. (1960). The process of communication: An introduction to theory and practice. Holt, Rinehart and Winston.',
+      link: '',
+    },
+    {
+      referencia:
+        'Branden, N. (2010). Los seis pilares de la autoestima. Editorial Urano.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. Psychophysiology, 39(3), 281-291.',
+      link: 'https://doi.org/10.1017/S0048577201393198',
+    },
+    {
+      referencia:
+        'Masten, A. S. (2001). Ordinary magic: Resilience processes in development. American Psychologist, 56(3), 227-238.',
+      link: 'https://doi.org/10.1037/0003-066X.56.3.227',
+    },
+    {
+      referencia:
+        'Max-Neef, M. (1986). Desarrollo a escala humana: Una opción para el futuro. Fundación Dag Hammarskjöld.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rojas-Barahona, C. A., Zegers, B. P., & Förster, C. E. (2009). La escala de autoestima de Rosenberg: Validación para Chile en una muestra de jóvenes adultos, adultos y adultos mayores. Revista médica de Chile, 137(6), 791-800.',
+      link: 'https://dx.doi.org/10.4067/S0034-98872009000600009',
+    },
+    {
+      referencia:
+        'Secretaría del Trabajo y Previsión Social. (2010). Guía informativa de la Norma Oficial Mexicana NOM-002-STPS-2010, Condiciones de seguridad - Prevención y protección contra incendios en los centros de trabajo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Tobón, S. (2006). Formación basada en competencias: Pensamiento complejo, diseño curricular y didáctica. ECOE Ediciones.',
+      link: '',
+    },
+    {
+      referencia: 'UNICEF. (2017). Resiliencia.',
+      link: '',
     },
   ],
   creditos: [
@@ -171,7 +298,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -186,9 +313,29 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Carlos Fabián Acosta Gil',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Martha Cecilia Arcila Aponte',
+          cargo: 'Profesional especializada',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -196,18 +343,53 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Oscar Ivan Uribe Ortiz',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Jose Yobani Penagos Mora',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Luis Fernando Botero Mendoza ',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Oscar Daniel Espitia Marín ',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Sebastian Trujillo Afanador ',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Veimar Celis Meléndez ',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -216,18 +398,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
