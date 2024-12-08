@@ -1,17 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo: 'Competencias para la vida fundantes e integradoras',
+    descripcionCurso:
+      'Este componente permite a los aprendices explorar y comprender las competencias fundantes e integradoras, fundamentales para el desarrollo personal y social. A partir del enfoque del Desarrollo a Escala Humana (DEH), se busca que identifiquen su importancia, potencien habilidades socioemocionales y fortalezcan su capacidad de adaptación en diversos contextos, promoviendo un impacto positivo en su entorno.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,13 +28,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Competencias fundantes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Autoestima',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Regulación emocional',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Empatía',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Resiliencia',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Comunicación',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,9 +62,32 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Competencias integradoras',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Trabajo en equipo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Liderazgo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Toma de decisiones',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Gestión de conflictos',
+            hash: 't_2_4',
+          },
+        ],
       },
+
       {
         nombreRuta: 'tema3',
         numero: '3',

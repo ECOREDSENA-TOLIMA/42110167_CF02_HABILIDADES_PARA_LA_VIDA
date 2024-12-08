@@ -13,7 +13,7 @@ export default {
   name: 'ActividadDidactica',
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Competencias para la vida fundantes e integradoras',
       titulo: 'Cuestionario',
       introduccion: '<b> Objetivo:</b> Texto de Word',
       barajarPreguntas: true,
