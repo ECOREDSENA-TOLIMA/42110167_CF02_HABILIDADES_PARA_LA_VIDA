@@ -410,6 +410,17 @@
             figure
               img(src='@/assets/curso/temas/tema2/img34.png', alt='Imagen decorativa')
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12        
+        .cajon.cajon1.color-primario.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-9.col-12.order-lg-1.order-2
+              p.mb-0 Elegir el estilo adecuado depende de la naturaleza del conflicto, las partes involucradas y los objetivos que se desean alcanzar. Para una resolución efectiva, es clave evaluar la situación y aplicar el estilo que mejor permita manejar el conflicto de manera constructiva.
+              
+            .col-lg-3.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img35.svg', alt='Imagen decorativa')
+
     p.mb-5(data-aos="fade-left") La siguiente matriz resume cómo, desde el enfoque de Desarrollo a Escala Humana (DEH), la competencia de gestión del conflicto puede fortalecerse a partir de las necesidades existenciales y hacia el cumplimiento de las necesidades axiológicas:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
