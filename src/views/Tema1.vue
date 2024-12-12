@@ -15,8 +15,8 @@
           .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen decorativa')
-          .col-lg-8.col-12
-            .cajon.cajon1.color-primario.p-4.mb-3.order-lg-1.order-2
+          .col-lg-8.col-12.order-lg-1.order-2
+            .cajon.cajon1.color-primario.p-4
               p Se comparan con los cimientos de una casa, ya que sobre ellas se construyen todas las demás habilidades necesarias para la vida. Estas competencias permiten desarrollar el valor propio, superar dificultades, comunicarse de manera efectiva, establecer relaciones saludables y comprender y gestionar las emociones.
               p.mb-0 Además, estas competencias no solo facilitan que las personas se valoren y se perciban en diferentes contextos, sino que también resultan esenciales para comprenderse mejor, regular sus emociones y establecer conexiones positivas con los demás y con el entorno. Representan una base clave para llevar una vida plena y construir relaciones significativas.
 
@@ -210,15 +210,13 @@
 
     p.mb-5(data-aos="fade-left") No todas las situaciones generan emociones automáticamente; esto depende de la interpretación individual. Las emociones también pueden variar en intensidad o cambiar con el contexto, experiencias y estado físico o emocional. Así, dos personas pueden reaccionar de manera diferente ante el mismo estímulo o una misma persona puede hacerlo en momentos distintos.
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .row.justify-content-center.align-items-center
-          .col-lg-6.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen decorativa')
-          .col-lg-6.col-12.order-lg-2.order-2
-            p Actualmente, las emociones se consideran herramientas útiles para la adaptación, las relaciones y el logro de objetivos. Incluso las emociones negativas, como la tristeza o el enojo, cumplen un propósito, aunque, si no se gestionan adecuadamente, pueden prolongarse y consumir energía.
-            p.mb-0 La regulación emocional es la capacidad de manejar sentimientos y su expresión. Las estrategias de regulación permiten decidir qué emociones experimentar, cómo y cuándo hacerlo. Según Gross (2002), estas estrategias pueden enfocarse en prevenir la emoción antes de que surja ("estrategias centradas en el antecedente") o en manejarla después de que se haya generado ("estrategias centradas en la respuesta"). Desarrollar esta habilidad mejora el bienestar general y facilita el manejo de las situaciones diarias.
+    .BGM01.px-md-5.px-4.mb-5
+      .row.justify-content-center(data-aos="flip-up")
+        .col-lg-5.col-10.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen decorativa')
+        .col-lg-5
+          p Actualmente, las emociones se consideran herramientas útiles para la adaptación, las relaciones y el logro de objetivos. Incluso las emociones negativas, como la tristeza o el enojo, cumplen un propósito, aunque, si no se gestionan adecuadamente, pueden prolongarse y consumir energía.
+          p.mb-0 La regulación emocional es la capacidad de manejar sentimientos y su expresión. Las estrategias de regulación permiten decidir qué emociones experimentar, cómo y cuándo hacerlo. Según Gross (2002), estas estrategias pueden enfocarse en prevenir la emoción antes de que surja ("estrategias centradas en el antecedente") o en manejarla después de que se haya generado ("estrategias centradas en la respuesta"). Desarrollar esta habilidad mejora el bienestar general y facilita el manejo de las situaciones diarias.
 
     p.mb-5(data-aos="fade-left") La siguiente figura hace referencia al Modelo Multimodal, con el cual Gross describe el proceso de regulación emocional:
 
@@ -387,7 +385,7 @@
                 td.text-bold.text-center ESTAR (espacios)
             tbody(style="background-color: #F6F6F6")
               tr
-                td.text-bold Empatía
+                th.text-center Empatía
                 td Se conecta emocionalmente con el otro, comprendiendo sus necesidades y puntos de vista.
                 td Desarrolla capacidades para identificar diferentes perspectivas, reconociendo pensamientos y sentimientos del otro.
                 td Reconoce sentimientos y puntos de vista de los demás, respetando las diferencias.
@@ -429,14 +427,14 @@
           .tarjeta.color2(style= "width: 100%; height: 100%")
             .p-4
               h4 Los factores protectores ayudan a afrontar la adversidad de forma positiva
-              ul.lista-ul
-                li.mb-0 
+              ul.lista-ul.mb-0
+                li
                   i.lista-ul__vineta
                   p.mb-0 <b>Personales</b>: personalidad flexible, buena adaptación o habilidades sociales.
-                li.mb-0 
+                li
                   i.lista-ul__vineta
                   p.mb-0 <b>Familiares</b>: vínculos fuertes con alguien de apoyo, como un familiar, vecino o profesional.
-                li.mb-0 
+                li
                   i.lista-ul__vineta
                   p.mb-0 <b>Socioculturales</b>: apoyo educativo, valores religiosos o compromiso social.
       .col-lg-9.mb-3
@@ -446,14 +444,14 @@
           .tarjeta.color2(style= "width: 100%; height: 100%")
             .p-4
               h4 Los factores de riesgo aumentan las probabilidades de un impacto negativo
-              ul.lista-ul
-                li.mb-0 
+              ul.lista-ul.mb-0
+                li 
                   i.lista-ul__vineta
                   p.mb-0 Insatisfacción de necesidades básicas.
-                li.mb-0 
+                li 
                   i.lista-ul__vineta
                   p.mb-0 Ambiente familiar tóxico.
-                li.mb-0 
+                li 
                   i.lista-ul__vineta
                   p.mb-0 Abandono escolar.
 

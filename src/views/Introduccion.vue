@@ -18,26 +18,24 @@
 
     p.mb-5(data-aos="fade-left") Estas competencias se dividen en dos tipos:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12 
-        .row
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/intro/img01.svg' alt='AvatarTop')
-              .tarjeta.color(style= "width: 100%")
-                .p-4
-                  h4 Competencias fundantes
-                  p Constituyen la base para el desarrollo personal y profesional.
+    .row.justify-content-center.mb-5
+      .col-lg-5.mb-lg-0.mb-4(data-aos="fade-right")
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/intro/img01.svg' alt='AvatarTop')
+          .tarjeta.color2(style= "width: 100%")
+            .p-4
+              h4 Competencias fundantes
+              p.mb-0 Constituyen la base para el desarrollo personal y profesional.
 
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/intro/img02.svg' alt='AvatarTop')
-              .tarjeta.color(style= "width: 100%")
-                .p-4
-                  h4 Competencias integradoras
-                  p Facilitan la aplicación de lo aprendido en situaciones reales y complejas.
+      .col-lg-5(data-aos="fade-left")
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/intro/img02.svg' alt='AvatarTop')
+          .tarjeta.color2(style= "width: 100%")
+            .p-4
+              h4 Competencias integradoras
+              p.mb-0 Facilitan la aplicación de lo aprendido en situaciones reales y complejas.
 
     p.mb-5(data-aos="fade-left") Las competencias socioemocionales están influenciadas por el entorno familiar, social e institucional, y son especialmente moldeables durante la adolescencia y la juventud. En estas etapas, se forman hábitos, se construye la personalidad y se adquieren destrezas clave para la vida adulta. Trabajar en ellas no solo contribuye a mejorar la calidad de vida personal, sino también a fortalecer la capacidad para enfrentar desafíos y generar un impacto positivo en el entorno. Basado en la descripción anterior, es importante que acceda al siguiente video, para comprender la importancia del contenido y los diferentes temas:
     

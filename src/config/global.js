@@ -87,13 +87,6 @@ export default {
           },
         ],
       },
-
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {

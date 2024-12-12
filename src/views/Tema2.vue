@@ -356,10 +356,8 @@
     p(data-aos="fade-left") La gestión de conflictos es un proceso esencial para resolver desacuerdos de manera constructiva, promoviendo la colaboración y el entendimiento. Los conflictos surgen cuando dos o más personas tienen intereses o posiciones opuestas, generalmente influenciadas por emociones. Gestionar un conflicto no significa eliminarlo, sino reducir su impacto negativo y transformarlo para que sirva como una oportunidad de mejora.
     p.mb-5(data-aos="fade-left") Pasos clave para gestionar conflictos:
 
-    .row.justify-content-center.p-md-5.p-4.mb-3(data-aos="flip-up")
-      .col-12
-        .tarjeta.tarjeta--BG06.p-4
-          SlyderB.p-4(:datos="datosSlyder")
+    .tarjeta.tarjeta--BG06.p-4.mb-5(data-aos="flip-up")
+      SlyderB.p-4(:datos="datosSlyder")
 
     p(data-aos="fade-left") La gestión de conflictos se basa en la escucha activa, la comunicación clara y la colaboración, transformando los desacuerdos en oportunidades para fortalecer relaciones y mejorar procesos.
     p.mb-5(data-aos="fade-left") Existen varios estilos para manejar los conflictos, y la elección del adecuado depende de la situación y de los objetivos que se deseen lograr. Cada estilo tiene sus características, ventajas y desventajas, lo que influye en la dinámica del conflicto, como se presenta a continuación:
@@ -411,15 +409,13 @@
               img(src='@/assets/curso/temas/tema2/img34.png', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12        
-        .cajon.cajon1.color-primario.p-4
+      .col-lg-10     
+        .cajon.cajon1.color-primario
           .row.justify-content-center.align-items-center
-            .col-lg-9.col-12.order-lg-1.order-2
+            .col-lg-9.order-lg-1.order-2.p-4
               p.mb-0 Elegir el estilo adecuado depende de la naturaleza del conflicto, las partes involucradas y los objetivos que se desean alcanzar. Para una resolución efectiva, es clave evaluar la situación y aplicar el estilo que mejor permita manejar el conflicto de manera constructiva.
-              
-            .col-lg-3.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema2/img35.svg', alt='Imagen decorativa')
+            .col-lg-2.col-md-4.col-6.order-lg-2.order-1
+              img(src='@/assets/curso/temas/tema2/img35.svg', alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-left") La siguiente matriz resume cómo, desde el enfoque de Desarrollo a Escala Humana (DEH), la competencia de gestión del conflicto puede fortalecerse a partir de las necesidades existenciales y hacia el cumplimiento de las necesidades axiológicas:
 
