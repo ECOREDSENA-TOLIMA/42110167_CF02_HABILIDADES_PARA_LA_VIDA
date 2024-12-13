@@ -386,7 +386,7 @@
       .py-4.py-md-5(titulo="Acomodativo" :icono="require('@/assets/curso/temas/tema2/img29.svg')")
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-2.order-2
-            p De cede completamente para satisfacer al otro, sacrificando los propios intereses. Aunque puede mantener la armonía, este estilo puede generar resentimientos si se utiliza constantemente.
+            p Se cede completamente para satisfacer al otro, sacrificando los propios intereses. Aunque puede mantener la armonía, este estilo puede generar resentimientos si se utiliza constantemente.
             p.mb-0 <b>Ejemplo</b>: aceptar hacer un trabajo extra para evitar molestar al jefe inmediato.
           .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
             figure
